@@ -5,10 +5,11 @@ import Logo from "../app/img/logo.webp";
 
 export default function From() {
   return (
-    <section>
+    <section> 
       <div className="bg-white py-20 w-full">
         <div className="container mx-auto">
           <div>
+            
             <Image src={Logo} alt="logo" />
           </div>
           <div className="pt-10 flex flex-col gap-5">
