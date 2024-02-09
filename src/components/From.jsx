@@ -9,7 +9,7 @@ export default function From() {
       <div className="bg-white py-20 w-full">
         <div className="container mx-auto">
           <div>
-            
+
             <Image src={Logo} alt="logo" />
           </div>
           <div className="pt-10 flex flex-col gap-5">
@@ -18,13 +18,11 @@ export default function From() {
             </h3>
             <div className="flex items-end">
               <h5 className="font-medium">Employer Company Name:</h5>
-              <h5 className="border-black border-b px-3 font-medium">
-                Axzons Health System Corporation
-              </h5>
+              <input type="name" name="name" className="border-b border-black w-[60%] focus:outline-none px-4" />
             </div>
             <div className="flex items-end">
               <h5 className="font-medium">Employee Name:</h5>
-              <h5 className="border-black border-b px-3 w-[60%] font-medium"></h5>
+              <input type="name" name="name" className="border-b border-black w-[60%] focus:outline-none px-4" />
             </div>
             <p className="text-sm font-medium">
               On behalf of myself and my eligible dependents (if any), I waive
@@ -67,16 +65,16 @@ export default function From() {
             </p>
             <div className="flex items-end">
               <h5 className="font-medium">Subscriber Name:</h5>
-              <h5 className="border-black border-b px-3 w-[60%] font-medium"></h5>
+              <input type="name" name="name" className="border-b border-black w-[60%] focus:outline-none px-4" />
             </div>
             <div className="grid lg:grid-cols-2 gap-5">
               <div className="flex ">
                 <h5 className="font-medium">Carrier Name:</h5>
-                <h5 className="border-black border-b px-3 w-[60%] lg:w-[80%] font-medium"></h5>
+                <input type="name" name="name" className="border-b border-black w-[60%] lg:w-[80%] focus:outline-none px-4" />
               </div>
               <div className="flex items-end">
                 <h5 className="font-medium">Group/Policy Number:</h5>
-                <h5 className="border-black border-b px-3 w-[60%] font-medium"></h5>
+                <input type="name" name="name" className="border-b border-black w-[60%] focus:outline-none px-4" />
               </div>{" "}
             </div>
             <div className="flex flex-col">
@@ -124,11 +122,11 @@ export default function From() {
               <div className="grid lg:grid-cols-2 gap-5 pt-10">
                 <div className="flex">
                   <h5 className="font-medium">Employee Signature:</h5>
-                  <h5 className="border-black border-b px-3 w-[60%] lg:w-[75%] font-medium"></h5>
+                  <input type="name" name="name" className="border-b border-black w-[60%] lg:w-[75%] focus:outline-none px-4" />
                 </div>
                 <div className="flex items-end">
                   <h5 className="font-medium">Date:</h5>
-                  <h5 className="border-black border-b px-3 w-[60%] font-medium"></h5>
+                  <input type="name" name="name" className="border-b border-black w-[60%] focus:outline-none px-4" />
                 </div>{" "}
               </div>
               <p className="text-sm font-medium pt-5">
@@ -141,11 +139,11 @@ export default function From() {
               <div className="grid lg:grid-cols-2 gap-5 pt-5">
                 <div className="flex">
                   <h5 className="font-medium">Employee Signature:</h5>
-                  <h5 className="border-black border-b-[3px] px-3 w-[60%] lg:w-[75%] font-medium"></h5>
+                  <input type="name" name="name" className="border-b-2 border-black w-[60%] focus:outline-none px-4" />
                 </div>
                 <div className="flex items-end">
                   <h5 className="font-medium">Date:</h5>
-                  <h5 className="border-black border-b-[3px] px-3 w-[60%] font-medium"></h5>
+                  <input type="name" name="name" className="border-b-2 border-black w-[60%] focus:outline-none px-4" />
                 </div>{" "}
               </div>
             </div>
